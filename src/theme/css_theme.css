@@ -1,0 +1,66 @@
+.image-container-search {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.IconSearch {
+    position: absolute;
+   
+    left: 25px;
+    top: 15px;
+    z-index: 1;
+    grid-area: search;
+}
+
+.image-container-chat {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.IconChat {
+   
+    position: absolute;
+    max-width: 50%;
+   
+    z-index: 1;
+   
+}
+
+.image-container-schedule {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.IconSchedule {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    z-index: 1;
+    grid-area: schedule;
+}
+
+.image-container-menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.IconMenu {
+    position: absolute;
+    
+    left: 25px;
+    top: 15px;
+    z-index: 1;
+    grid-area: menu;
+}
+
+
+
