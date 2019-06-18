@@ -213,7 +213,7 @@ app.delete("/api/vehicle/:id", ctrl.deleteVehicle);
 
 //Reservations
 app.post("/api/reservation/:id", ctrl.createReservation);
-app.get("/api/reservations", ctrl.getReservations);
+app.get("/api/reservations/:id", ctrl.getReservations);
 app.get("api/reservation/:id", ctrl.getListingById);
 app.delete("/api/reservation/:id", ctrl.deleteReservation);
 

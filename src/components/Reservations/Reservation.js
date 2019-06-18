@@ -13,7 +13,7 @@ class Reservations extends Component {
   componentDidMount() {
     const { user } = this.props;
     
-    axios.get(`/api/reservations`).then(res => {
+    axios.get(`/api/reservations/${user.id}`).then(res => {
       this.setState({
         reservations: res.data
       });
