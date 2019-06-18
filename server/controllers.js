@@ -35,7 +35,7 @@ module.exports = {
     
     db.get_listing_by_id({ id })
       .then(listing => {
-        
+        console.log(listing)
         
         res.status(200).send(listing)
       })
