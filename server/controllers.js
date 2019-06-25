@@ -35,7 +35,7 @@ module.exports = {
     
     db.get_listing_by_id({ id })
       .then(listing => {
-        console.log(listing)
+       
         
         res.status(200).send(listing)
       })
@@ -161,7 +161,7 @@ module.exports = {
   },
 
   createReservation: (req, res) => {
-    console.log(req.body)
+    
     const db = req.app.get("db");
     const {
       user_id,

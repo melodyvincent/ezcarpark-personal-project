@@ -55,7 +55,7 @@ class EditListing extends Component {
     Geocode.enableDebug();
 
     axios.get(`/api/listings/${this.props.match.params.id}`).then(res => {
-     console.log(res.data)
+     
       this.setState({
         address: res.data[0].address || null,
         buildingType: res.data[0].building_type,

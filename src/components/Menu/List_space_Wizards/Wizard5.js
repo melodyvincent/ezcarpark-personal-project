@@ -19,7 +19,7 @@ class Wizard5 extends Component {
         uploadTask.on('state_changed',
           () => {
             storage.ref('main_images').child(listing_pic.name).getDownloadURL().then(url => {
-              console.log(url)
+             
               if (picNum === 1) {
                 this.props.updateWizPicOne(url)
               } else if (picNum === 2) {

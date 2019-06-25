@@ -156,7 +156,7 @@ class Checkout extends Component {
     );
   };
   render() {
-    console.log(this.state.listing);
+    
 
     const {
       address,
